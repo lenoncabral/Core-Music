@@ -1,9 +1,10 @@
 package model;
 
-public class Pessoa {
-	int codigo, cpf, isntrumento;
-	String nome, tel_res, celular, rg, curso, data_nasc;
-	
+public class Instrumento {
+	int codigo, num_patrim;
+	String nome, descricao;
+	boolean emprestimo;
+
 	public void novo (){
 		
 	}
@@ -19,5 +20,4 @@ public class Pessoa {
 	public void buscar(){
 		
 	}
-
 }

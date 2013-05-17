@@ -1,8 +1,8 @@
 package model;
 
-public class Pessoa {
-	int codigo, cpf, isntrumento;
-	String nome, tel_res, celular, rg, curso, data_nasc;
+public class Bairro {
+	String nome_bairro, logadouro;
+	int codigo;
 	
 	public void novo (){
 		
