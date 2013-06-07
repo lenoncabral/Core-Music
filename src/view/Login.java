@@ -88,12 +88,12 @@ public class Login {
 		panel.add(lblLogin_1);
 		
 		textField_1 = new JTextField();
-		textField_1.setBounds(110, 39, 310, 20);
+		textField_1.setBounds(123, 39, 297, 20);
 		panel.add(textField_1);
 		textField_1.setColumns(10);
 		
 		passwordField = new JPasswordField();
-		passwordField.setBounds(110, 86, 310, 20);
+		passwordField.setBounds(123, 86, 297, 20);
 		panel.add(passwordField);
 		
 		
